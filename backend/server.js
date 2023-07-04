@@ -66,7 +66,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000, //Amount of time, it will wait before closing the connection. it will close the connection
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://mern-fullstack-chat-app.onrender.com",
   },
 });
 
