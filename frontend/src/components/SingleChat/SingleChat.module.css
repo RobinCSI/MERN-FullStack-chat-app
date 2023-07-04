@@ -1,0 +1,12 @@
+.messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+}
+
+.scrollableChat::-webkit-scrollbar{
+    display: none;
+        
+}

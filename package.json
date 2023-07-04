@@ -1,0 +1,22 @@
+{
+  "name": "full-stack-chat-app",
+  "version": "1.0.0",
+  "description": "A full stack real time chat app using MERN stack, WebSockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Robin Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.3",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.7.1"
+  }
+}
