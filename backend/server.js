@@ -29,7 +29,7 @@ app.use("/api/message", messageRoutes);
 //Deployment-----------------
 const __dirname1 = path.resolve();
 if (process.env.NODE_ENV == "production") {
-  app.use(express.static(path.join(__dirname1, "/frontend/build"))); //establishing the path from my current working directory __dirname1 to the build folder of our frontend
+  app.use(express.static(path.join(__dirname1, "/frontend/dist"))); //establishing the path from my current working directory __dirname1 to the build folder of our frontend
 
   //API call to get the content of index.html file in dist/build folder
   app.get("*", (req, res) => { //* means to get everything
