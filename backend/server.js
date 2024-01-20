@@ -57,7 +57,7 @@ app.use(errorHandler); //Error to handle other errors
 //   res.send(singleChat);
 // });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5003;
 const server = app.listen(
   PORT,
   console.log(`Server started successfully on Port ${PORT}`)
